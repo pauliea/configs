@@ -7,10 +7,10 @@ https://github.com/tmux-plugins/tpm
 ### Getting started  
 Git init in home (~) directory  
 Ignore all files in directory: echo "*" > .gitignore  
-Add files: git add -f <file>  
+Add files: git add -f "file"  
 
 ### Push files  
-git remote add origin <https://"git remote repository">  
+git remote add origin https://"git remote repository"  
 git push -u origin master  
 
 ### Pull files  
