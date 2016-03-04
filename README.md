@@ -1,4 +1,6 @@
-# Configuration files
+# Configs
+Configuration files for vim, tmux, git etc.
+Some content (.gitconfig) is personal and needs to be edited on fork.
 
 ### Prerequisites  
 https://github.com/VundleVim/Vundle.vim  
