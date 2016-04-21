@@ -34,8 +34,11 @@ set backupdir=~/vimtmp,.
 set directory=~/vimtmp,.
 set undodir=~/vimtmp,.
 set laststatus=2
-set relativenumber
+set number
 set numberwidth=3
+
+:autocmd InsertEnter * set cul
+:autocmd InsertLeave * set nocul
 
 "Nr formats to get decimail instead of octa
 set nrformats=
