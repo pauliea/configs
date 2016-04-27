@@ -36,6 +36,10 @@ set undodir=~/vimtmp,.
 set laststatus=2
 set number
 set numberwidth=3
+set hlsearch
+set smartcase
+set autoindent
+set ignorecase
 
 :autocmd InsertEnter * set cul
 :autocmd InsertLeave * set nocul
