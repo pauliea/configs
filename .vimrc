@@ -18,6 +18,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'ap/vim-css-color'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'benmills/vimux'
+Plugin 'majutsushi/tagbar'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -68,3 +69,5 @@ noremap   <Up>     <NOP>
 noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
+
+nmap <F8> :TagbarToggle<CR>
